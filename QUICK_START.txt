@@ -1,0 +1,150 @@
+===============================================================================
+                    HP OMEN GAME PERFORMANCE MANAGER
+                           QUICK START GUIDE
+===============================================================================
+
+🚀 GET MAXIMUM GAMING PERFORMANCE IN UNDER 2 MINUTES!
+
+===============================================================================
+INSTANT START (No Setup Required)
+===============================================================================
+
+1. OPEN FOLDER: Navigate to Source folder
+
+2. CHOOSE MODE:
+   • For SILENT background operation: Run "StartGameManagerHidden.vbs"
+   • For VISIBLE monitoring: Run "GamePerformanceManagerVerbose.bat"
+
+3. LAUNCH GAMES: Start any game - fans will automatically go to maximum!
+
+4. DONE! System will automatically:
+   • Detect when games start
+   • Set fans to 100% for maximum cooling
+   • Boost GPU to maximum performance
+   • Refresh every 120 seconds to prevent timeout
+   • Restore quiet operation when games close
+
+===============================================================================
+AUTOMATIC WINDOWS STARTUP (Recommended)
+===============================================================================
+
+1. Run "InstallStartup.bat"
+2. Restart Windows
+3. Done! Game monitoring now starts automatically on boot
+
+To remove later: Run "UninstallStartup.bat"
+
+===============================================================================
+ADD YOUR GAMES
+===============================================================================
+
+1. Open "GameConfig.txt"
+2. Under [GAMES] section, add your game:
+
+   Example:
+   [GAMES]
+   cyberpunk2077.exe
+   witcher3.exe
+   your_game.exe
+
+3. Save file - changes take effect immediately
+
+TIP: Check exact process name in Task Manager
+
+===============================================================================
+WHAT YOU'LL SEE
+===============================================================================
+
+SILENT MODE:
+• No window (runs in background)
+• Check "GamePerformanceManager.log" for activity
+• System tray shows running script
+
+VERBOSE MODE:
+>>> GAME DETECTED <<<
+===============================
+  ACTIVATING GAMING PROFILE
+===============================
+[STEP 1] Setting fans to maximum speed...
+[SUCCESS] Fans set to maximum speed
+
+[STEP 2] Setting fan mode to Performance...
+[SUCCESS] Fan mode set to Performance
+
+[REFRESH] Refreshing fan settings (preventing 130s timeout)...
+[SUCCESS] Fan maximum setting refreshed
+
+===============================================================================
+TROUBLESHOOTING
+===============================================================================
+
+❌ FANS NOT WORKING?
+• Make sure OmenMon.exe is in your PATH or script folder
+• Check if your game name is listed in GameConfig.txt
+• Run verbose mode to see what's happening
+
+❌ GAME NOT DETECTED?
+• Open Task Manager and find exact process name
+• Add the .exe filename to GameConfig.txt under [GAMES]
+
+❌ LOG FILES IN WRONG PLACE?
+• Use "InstallStartup.bat" instead of running VBS files directly
+• This sets the correct working directory
+
+===============================================================================
+PRE-CONFIGURED GAMES
+===============================================================================
+
+✅ Already working with these games:
+• Cyberpunk 2077          • Fortnite
+• The Witcher 3           • Apex Legends  
+• Valorant                • GTA 5
+• Counter-Strike (CS:GO)  • Red Dead Redemption 2
+• Dota 2                  • Minecraft
+
+===============================================================================
+FILES EXPLAINED
+===============================================================================
+
+📁 FILES IN YOUR FOLDER:
+
+GamePerformanceManagerSilent.bat    ← Run this for background operation
+GamePerformanceManagerVerbose.bat   ← Run this to see detailed output
+GameConfig.txt                      ← Edit this to add/remove games
+InstallStartup.bat                   ← Run once to auto-start with Windows
+UninstallStartup.bat                 ← Remove from Windows startup
+GamePerformanceManager.log          ← Activity log (auto-created)
+
+===============================================================================
+HOW IT WORKS
+===============================================================================
+
+🔄 MONITORING LOOP (Every 5 seconds):
+1. Check if any configured games are running
+2. If game found: Apply maximum performance settings
+3. If gaming: Refresh fan settings every 120 seconds
+4. If no games: Restore quiet/power-saving mode
+
+⚡ PERFORMANCE BOOST:
+• Fans: Automatic → 100% Maximum
+• GPU: Power Saving → Maximum Performance
+• Refresh: Every 120 seconds to prevent HP timeout
+❄️ COOLING SOLUTION:
+• HP Omen laptops reset fans after 130 seconds
+• Our script refreshes at 120 seconds
+• Beats the timeout by 10 seconds
+• Maintains constant cooling during long gaming sessions
+
+===============================================================================
+THAT'S IT! 
+===============================================================================
+
+🎮 Launch your games and enjoy maximum performance automatically!
+🔥 No more thermal throttling
+🌪️ Constant cooling during gaming
+🔇 Quiet operation when not gaming
+⚡ Zero manual intervention required
+
+Questions? Check README.md for detailed information.
+
+===============================================================================

@@ -1,0 +1,20 @@
+# Game Performance Manager Configuration
+# Add your game executables below under [GAMES] section
+
+[GENERAL]
+OMENMON_PATH=OmenMon.exe
+CHECK_INTERVAL=5
+LOG_FILE=GamePerformanceManager.log
+
+[GAMES]
+cyberpunk2077.exe
+witcher3.exe
+valorant.exe
+csgo.exe
+dota2.exe
+
+[PERFORMANCE]
+GPU_MODE=Maximum
+FAN_MODE=Performance
+GPU_RESTORE=Minimum
+FAN_RESTORE=Default
